@@ -1,0 +1,15 @@
+parameters:
+    level: 8
+    paths:
+        - src
+        - tests
+    ignoreErrors:
+        - '#Call to an undefined method#'
+        - '#Comparison operation.*is always true#'
+        - '#no value type specified in iterable type#'
+        - '#Missing parameter type#'
+        - '#Missing return type#'
+    treatPhpDocTypesAsCertain: false
+    reportUnmatchedIgnoredErrors: false
+    checkMissingIterableValueType: false
+    checkGenericClassInNonGenericObjectType: false
